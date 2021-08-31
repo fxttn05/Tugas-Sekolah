@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<body background="">
+<body>
+<center>
+<font size="15" color="black" ></font>
+<script>
+    alert("Pilihlah Bangun Datar : Persegi Panjang, Lingkaran, Trapesium, Jajargenjang")
+        var bangun = prompt("Masukan Bangun Datar")
+        if(bangun == "Persegi Panjang"){
+    function hasil() {
+            return "Luas Persegi Panjang ialah :" +luas;
+        }
+        var p=prompt ("Masukkan nilai panjang");
+        p=parseInt(p);
+        var l=prompt ("Masukkan nilai lebar");
+        l=parseInt(l);
+        var luas;
+        luas=p*l;
+        document.write ("Luas persegi panjang ialah "+luas);
+    }
+
+        else if(bangun == "Lingkaran"){
+    function hasil() {
+            return "Hasilnya ialah : " +hasil;
+        }
+        var phi=prompt ("Masukkan phi");
+        phi=parseInt(phi);
+        var r=prompt ("Masukkan jari-jari");
+        r=parseInt(r);
+        var luas;
+        hasil = phi*r*r;
+        document.write ("Hasilnya ialah "+hasil);
+    }
+
+        else if(bangun == "Trapesium"){
+        var AB=prompt ("Masukkan nilai AB");
+        AB=parseInt(AB);
+        var CD=prompt ("Masukkan nilai CD");
+        CD=parseInt(CD);
+        var hasil;
+        hasil = AB+CD;
+        document.write ("Hasil Keliling Trapesium ialah "+hasil);
+    }
+
+        else if(bangun == "Jajargenjang"){
+        var a=prompt ("Masukkan alas");
+        a=parseInt(a);
+        var t=prompt ("Masukkan tinggi");
+        t=parseInt(t);
+        var luas;
+        hasil = a*t;
+        document.write ("Hasil Luasnya ialah "+hasil)
+    }
+</script>
+</center>
+</body>
+</html>
